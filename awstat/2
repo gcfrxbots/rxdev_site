@@ -1,0 +1,44 @@
+From root@atlvps.kc0zhq.com  Mon Oct 28 00:20:01 2019
+Return-Path: <root@atlvps.kc0zhq.com>
+X-Original-To: root
+Delivered-To: root@atlvps.kc0zhq.com
+Received: by atlvps.kc0zhq.com (Postfix, from userid 0)
+	id 9FDD76E0FF; Mon, 28 Oct 2019 00:20:01 -0400 (EDT)
+From: "(Cron Daemon)" <root@atlvps.kc0zhq.com>
+To: root@atlvps.kc0zhq.com
+Subject: Cron <root@atlvps> python3 -c 'import random; import time; time.sleep(random.random() * 3600)' && /root/certbot/certbot-auto renew
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+Precedence: bulk
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/bash>
+X-Cron-Env: <PATH=/sbin:/bin:/usr/sbin:/usr/bin>
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20191028042001.9FDD76E0FF@atlvps.kc0zhq.com>
+Date: Mon, 28 Oct 2019 00:20:01 -0400 (EDT)
+Status: O
+
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processing /etc/letsencrypt/renewal/atlvps.kc0zhq.com.conf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Cert not yet due for renewal
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processing /etc/letsencrypt/renewal/rxbots.net.conf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Cert not yet due for renewal
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+The following certs are not due for renewal yet:
+  /etc/letsencrypt/live/atlvps.kc0zhq.com/fullchain.pem expires on 2020-01-24 (skipped)
+  /etc/letsencrypt/live/rxbots.net/fullchain.pem expires on 2020-01-25 (skipped)
+No renewals were attempted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
